@@ -1,8 +1,3 @@
-## Tabla de contenido
-
-[TOC]
-
-
 # Cómo Instalar tu propio nodo de Bitcoin y Lightning Network
 
 Un nodo de Bitcoin puede usar las siguientes redes:
