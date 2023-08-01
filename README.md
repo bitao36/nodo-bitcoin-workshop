@@ -47,8 +47,9 @@ $cd ~
 
 ## Instalando un nodo de Lightning Network 
 
-### [Tutorial de Instalación de CLN usando Bitcoin Core y tor ](https://hackmd.io/NR3XXnAISbuqxC6fMr1FMQ?view)
+Se eligió la simpleza y el desempeño, por eso el nodo de Bitcoin será Bitcoin Core, para el nodo de lightning se usará Core Lightning y para que los nodos de lightning externos se puedan comunicar usaremos tor como proxy.
 
+### [Tutorial de Instalación de CLN usando Bitcoin Core y tor ](https://hackmd.io/NR3XXnAISbuqxC6fMr1FMQ?view)
 
 ### Instalación automática
 
@@ -60,6 +61,4 @@ $wget -O ln_installer.sh https://gist.githubusercontent.com/bitao36/be953bdea548
 $chmod +x ln_installer.sh
 $./ln_installer.sh
 ```
-
-### [Tutorial en video](https://www.youtube.com/watch?v=A_BQywafJ-w)
 
