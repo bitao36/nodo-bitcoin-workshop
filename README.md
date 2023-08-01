@@ -34,14 +34,14 @@ Debes tener instalada una distribución Linux basada en Debian preferiblemente U
 Debes añadir un usuario diferente a root para la instalación de los nodos, en caso de que no lo tengas aquí te muestro como:
 
 ```
-$adduser satoshi
-$usermod -aG sudo satoshi
+$adduser tusuario
+$usermod -aG sudo tusuario
 ```
 
 luego te loggeas con:
 
 ```
-$su satoshi
+$su tusuario
 $cd ~
 ```
 
