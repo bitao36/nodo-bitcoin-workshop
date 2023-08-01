@@ -33,7 +33,7 @@ Debes tener instalada una distribución Linux basada en Debian preferiblemente U
 
 Debes añadir un usuario diferente a root para la instalación de los nodos, en caso de que no lo tengas aquí te muestro como:
 
-```gherkin=
+```
 $adduser satoshi
 $usermod -aG sudo satoshi
 ```
@@ -45,17 +45,21 @@ $su satoshi
 $cd ~
 ```
 
+## Instalando un nodo de Lightning Network 
 
-## Instalación de nodo Bitcoin Core
-
-### [Tutorial en texto](https://hackmd.io/UEmf3CQpQeGe8cBhrFel2g?view)
-
-### [Tutorial en video](https://www.youtube.com/watch?v=30szR5xDx_I)
+### [Tutorial de Instalación de CLN usando Bitcoin Core y tor ](https://hackmd.io/NR3XXnAISbuqxC6fMr1FMQ?view)
 
 
-## Instalación de nodo Core lightning
+### Instalación automática
 
-### [Tutorial en texto](https://hackmd.io/JJZSmjBMQcG5RNQKn13HTw?view)
+Para ahorrarte trabajo escribí un script que ejecuta automaticamente todos los pasos del tutorial.
+Abre una terminal y ejecuta los siguientes comandos:
+```
+$cd ~
+$wget -O ln_installer.sh https://gist.githubusercontent.com/bitao36/be953bdea548f64d48ae50dcd9ecf2c0/raw/e526dd412184f257871817058c308d82d6834e4d/gistfile1.txt
+$chmod +x ln_installer.sh
+$./ln_installer.sh
+```
 
 ### [Tutorial en video](https://www.youtube.com/watch?v=A_BQywafJ-w)
 
