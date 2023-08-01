@@ -29,10 +29,23 @@ A continuación se detallan cuáles serían los requisitos mínimos:
 
 
 ### Software
-Preferiblemente tener instalada la distribución Linux Ubuntu.
-Si deseas instalarlo en tu sistema Windows para probar con testnet puedes usar el Subsistema de Windows para Linux también llamado WSL.
+Debes tener instalada una distribución Linux basada en Debian preferiblemente Ubuntu.
 
-El Subsistema de Windows para Linux permite a los desarrolladores ejecutar un entorno de GNU/Linux, incluida la mayoría de herramientas de línea de comandos, utilidades y aplicaciones, directamente en Windows, sin modificar y sin la sobrecarga de una máquina virtual tradicional o una configuración de arranque dual.
+Debes añadir un usuario diferente a root para la instalación de los nodos, en caso de que no lo tengas aquí te muestro como:
+
+```gherkin=
+$adduser satoshi
+$usermod -aG sudo satoshi
+```
+
+luego te loggeas con:
+
+```
+$su satoshi
+$cd ~
+```
+
+
 ## Instalación de nodo Bitcoin Core
 
 ### [Tutorial en texto](https://hackmd.io/UEmf3CQpQeGe8cBhrFel2g?view)
