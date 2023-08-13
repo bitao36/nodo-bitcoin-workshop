@@ -56,10 +56,10 @@ Se eligió la simpleza y el desempeño, por eso el nodo de Bitcoin será Bitcoin
 Para ahorrarte trabajo escribí un par de scripts que ejecutan automaticamente todos los pasos del tutorial.
 Abre una terminal y ejecuta los siguientes comandos:
 ```
-$cd ~
-$wget https://gist.githubusercontent.com/bitao36/98a552af92e7d7dfc60f7a7491208a16/raw/14d6295b0ab16fa846f1cbf3c54d1cc291eeeb88/btcln_installer.sh
-$chmod +x ln_installer.sh
-$./btcln_installer.sh
+cd ~
+wget https://gist.githubusercontent.com/bitao36/98a552af92e7d7dfc60f7a7491208a16/raw/14d6295b0ab16fa846f1cbf3c54d1cc291eeeb88/btcln_installer.sh
+chmod +x ln_installer.sh
+./btcln_installer.sh
 ```
 Este script instala  Bitcoin Core, Core Lightning, tor y empieza a descargar la cadena de Bitcoin
 
@@ -67,8 +67,9 @@ Selecciona la opción 1 si estás aprendiendo.
 
 Cuando termine de descargar la cadena de testnet ejecuta los siguientes comandos:
 ```
-$wget https://gist.githubusercontent.com/bitao36/98a552af92e7d7dfc60f7a7491208a16/raw/14d6295b0ab16fa846f1cbf3c54d1cc291eeeb88/ln_setup.sh
-$chmod +x ln_setup.sh
-$./ln_setup.sh
+wget https://gist.githubusercontent.com/bitao36/98a552af92e7d7dfc60f7a7491208a16/raw/14d6295b0ab16fa846f1cbf3c54d1cc291eeeb88/ln_setup.sh
+chmod +x ln_setup.sh
+./ln_setup.sh
 ```
+Este script lanza tor, obtiene la onion url, configura el nodo de lightning y lo lanza en segundo plano.
 
