@@ -58,7 +58,7 @@ Abre una terminal y ejecuta los siguientes comandos:
 ```
 cd ~
 wget https://gist.githubusercontent.com/bitao36/98a552af92e7d7dfc60f7a7491208a16/raw/14d6295b0ab16fa846f1cbf3c54d1cc291eeeb88/btcln_installer.sh
-chmod +x ln_installer.sh
+chmod +x btcln_installer.sh
 ./btcln_installer.sh
 ```
 Este script instala  Bitcoin Core, Core Lightning, tor y empieza a descargar la cadena de Bitcoin
