@@ -49,7 +49,7 @@ $cd ~
 
 Se eligió la simpleza y el desempeño, por eso el nodo de Bitcoin será Bitcoin Core, para el nodo de lightning se usará Core Lightning y para que los nodos de lightning externos se puedan comunicar usaremos tor como proxy.
 
-### [Tutorial de Instalación de CLN usando Bitcoin Core y tor ](https://hackmd.io/NR3XXnAISbuqxC6fMr1FMQ?view)
+### [Tutorial de Instalación de CLN usando Bitcoin Core y tor ](https://gustavotorresfev.com/instala-tu-nodo-bitcoin-con-lightning-network)
 
 ### Instalación automática
 
